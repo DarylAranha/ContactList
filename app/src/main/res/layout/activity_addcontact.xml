@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    tools:context=".AddContact">
+
+
+    <EditText
+        android:id="@+id/txt_name"
+        android:hint="Enter Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"/>
+
+
+    <EditText
+        android:id="@+id/txt_contact"
+        android:hint="Enter Contact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        />
+
+    <Button
+        android:id="@+id/btn_add"
+        android:text="Add Contact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_margin="5dp"/>
+
+    <Button
+        android:id="@+id/btn_view"
+        android:text="View All Contacts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_margin="5dp"/>
+
+    <Button
+        android:id="@+id/btn_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="WebService"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_fetchedJSON"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="Fetched JSON Data"
+        android:textStyle="bold" />
+
+</LinearLayout>
